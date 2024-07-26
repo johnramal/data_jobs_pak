@@ -10,3 +10,4 @@ def convert_job_skills(x):
             return x
     except (ValueError, SyntaxError):
         return x
+
