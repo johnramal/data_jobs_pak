@@ -52,7 +52,7 @@ This project uses a Conda environment. You can set it up using either the `envir
 ### Option 1: Using `environment.yml` (recommended for Conda users)
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/data_jobs_pak.git
+    git clone https://github.com/johnramal/data_jobs_pak.git
     cd data_jobs_pak
     ```
 
@@ -65,7 +65,7 @@ This project uses a Conda environment. You can set it up using either the `envir
 ### Option 2: Using `requirements.txt`
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/data_jobs_pak.git
+    git clone https://github.com/johnramal/data_jobs_pak.git
     cd data_jobs_pak
     ```
 
