@@ -40,17 +40,30 @@ In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/6_comapr
 
 
 ### 2.3 Detailed Analysis of Pakistan's Data Job Market
-This [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/7_detailed_analysis_pak.ipynb) provides a deeper look into Pakistan's data job market, revealing that technical roles like Data Engineer and Data Scientist are more prevalent than business analyst and senior roles. This could indicate the early stages of a data-driven trend in Pakistan. Notably, most job postings are from foreign companies or contractors for foreign companies, with Lahore leading in the number of postings, followed by Karachi and Islamabad.
 
-jobs per title
-![jobs per title](/insights_graphs/jobs_per_title_pak.png)
+#### 1. Approach
+
+In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/7_detailed_analysis_pak.ipynb), I conducted an in-depth analysis of Pakistan's data job market using the `df_pak.csv` dataset. The focus was on understanding the distribution of job postings across various cities, the types of roles available, and the companies posting these jobs.
+
+#### 2. Insights
+
+- **Jobs Per Title**: Technical roles such as Data Engineer and Data Scientist are more common than business analyst and senior roles. This trend suggests that Pakistan is in the early stages of adopting data-driven practices, with a growing demand for technical expertise.
+
+  ![jobs per title](/insights_graphs/jobs_per_title_pak.png)
+
+- **Jobs Per Company**: Most job postings are from foreign companies or contractors for foreign companies, highlighting the influence of international businesses in Pakistan's data job market.
+
+  ![jobs per company](/insights_graphs/jobs_per_company_pak.png)
+
+- **Jobs Per City**: Lahore leads in the number of job postings, followed by Karachi and Islamabad. This distribution indicates that these cities are emerging as hubs for data-related jobs in Pakistan.
+
+  ![jobs per city](/insights_graphs/job_count_by_city_and_title_pak.png)
 
 
-![jobs](/insights_graphs/jobs_per_title_pak.png)
 ### 2.4 Skills Trend Analysis in Pakistan
 In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/8_skills_trends_pak.ipynb), we focus on the skill requirements for data jobs in Pakistan, analyzing the distribution of the top 10 skills across various job titles. The analysis includes a blob chart for skill distribution and a radar chart for visualization. Python, SQL, AWS, and Tableau emerge as the top skills. We also perform a time analysis from January to December, finding no significant fluctuations in skill requirements.
 
-![Skills Trend Visualization](path_to_your_image)
+ ![](path_to_your_image)
 
 ### 3 Conclusions
 The analysis provides insights into the emerging data job market in Pakistan and offers a comparative perspective with other countries of similar GDP. The findings highlight the growing demand for technical skills and the role of foreign companies in shaping the job landscape.
