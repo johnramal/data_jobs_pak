@@ -19,24 +19,40 @@ This project analyzes the data job market in Pakistan and compares it with other
 ## 1. Introduction
 This repository contains a comprehensive analysis of the data job market, focusing on Pakistan and several comparative countries. The analysis is divided into four notebooks, each covering a different aspect of the study.
 
-## 2.1 Exploratory Data Analysis (EDA) 
+### 2.1 Exploratory Data Analysis (EDA) 
 In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/5_eda.ipynb), we import the dataset from Luke Barousse's Hugging Face repository and filter for data-related jobs. The filtered datasets are saved as `df_pak.csv` and `df_comparison_countries.csv`. Unfortunately, due to a lack of salary information in most postings, we were unable to perform a statistically significant numerical analysis on salary data.
 
-## 2.2 Comparative Analysis
-In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/6_comaprative_analysis.ipynb), we compare job postings in Pakistan with those in Egypt, Nigeria, Turkey, and Bangladesh. The analysis shows that most data-related jobs are posted by non-local companies such as Vodafone, Data2Bots, and JP Morgan Chase. Additionally, we observe that a significant number of job postings do not explicitly mention degree requirements, and there is a lack of health insurance benefits across the board, with Egypt offering the least work-from-home opportunities.
+### 2.2 Comparative Analysis
 
-![jobs percompany](/insights_graphs/jobs_per_company.png)
+#### 1. Approach
 
-## 2.3 Detailed Analysis of Pakistan's Data Job Market
+In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/6_comaprative_analysis.ipynb), we compare job postings in Pakistan with those in Egypt, Nigeria, Turkey, and Bangladesh. The analysis focuses on identifying patterns in job postings across these countries, with particular attention to the companies offering these jobs, degree requirements, and available benefits such as health insurance and work-from-home options.
+
+#### 2. Insights
+
+- **Jobs Per Company**: The majority of data-related job postings are from non-local companies, including Vodafone, Data2Bots, and JP Morgan Chase, indicating a strong presence of international firms in the job markets of these countries.
+
+  ![jobs per company](/insights_graphs/jobs_per_company.png)
+
+- **Benefit Analysis**: A significant number of job postings do not explicitly mention degree requirements. Additionally, there is a noticeable lack of health insurance benefits across all countries, with Egypt offering the fewest work-from-home opportunities.
+
+  ![benefit analysis](/insights_graphs/benefit_analysis.png)
+
+
+### 2.3 Detailed Analysis of Pakistan's Data Job Market
 This [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/7_detailed_analysis_pak.ipynb) provides a deeper look into Pakistan's data job market, revealing that technical roles like Data Engineer and Data Scientist are more prevalent than business analyst and senior roles. This could indicate the early stages of a data-driven trend in Pakistan. Notably, most job postings are from foreign companies or contractors for foreign companies, with Lahore leading in the number of postings, followed by Karachi and Islamabad.
 
-![jobs_per_title_pak](/insights_graphs/jobs_per_title_pak.png)
-## 2.4 Skills Trend Analysis in Pakistan
+jobs per title
+![jobs per title](/insights_graphs/jobs_per_title_pak.png)
+
+
+![jobs](/insights_graphs/jobs_per_title_pak.png)
+### 2.4 Skills Trend Analysis in Pakistan
 In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/8_skills_trends_pak.ipynb), we focus on the skill requirements for data jobs in Pakistan, analyzing the distribution of the top 10 skills across various job titles. The analysis includes a blob chart for skill distribution and a radar chart for visualization. Python, SQL, AWS, and Tableau emerge as the top skills. We also perform a time analysis from January to December, finding no significant fluctuations in skill requirements.
 
 ![Skills Trend Visualization](path_to_your_image)
 
-## 3 Conclusions
+### 3 Conclusions
 The analysis provides insights into the emerging data job market in Pakistan and offers a comparative perspective with other countries of similar GDP. The findings highlight the growing demand for technical skills and the role of foreign companies in shaping the job landscape.
 
 ## 4 Data Source
