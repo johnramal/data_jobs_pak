@@ -98,7 +98,7 @@ After setting up the environment using either method:
 - Required Python libraries are listed in `requirements.txt`.
 
 ## Acknowledgements
-Special thanks to Luke Barousse for providing the dataset on Hugging Face, which served as the foundation for this analysis.
+Special thanks to [Luke Barousse](https://www.youtube.com/@LukeBarousse) for providing the dataset on Hugging Face, which served as the foundation for this analysis.
 
 ## License
 
