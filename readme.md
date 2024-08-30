@@ -1,6 +1,7 @@
-# Data Job Market Analysis: Pakistan and Comparative Countries
+# Data Job Market Analysis: Pakistan
 
-This project analyzes the data job market in Pakistan and compares it with other countries of similar GDP levels, including Egypt, Nigeria, Turkey, and Bangladesh. The analysis includes exploratory data analysis (EDA), a comparative study, a detailed focus on Pakistan's job market, and an in-depth skills trend analysis.
+This project provides an in-depth analysis of the data job market in Pakistan for the year 2023, with a comparative overview of similar GDP-level countries: Egypt, Nigeria, Turkey, and Bangladesh. The study includes exploratory data analysis (EDA), a brief comparative analysis, a detailed examination of Pakistan’s job market, and a comprehensive skills trend analysis.
+ 
 
 ## Table of Contents
 1. [Introduction](#1-introduction)
@@ -16,7 +17,7 @@ This project analyzes the data job market in Pakistan and compares it with other
 
 
 ## 1. Introduction
-This repository contains a comprehensive analysis of the data job market, focusing on Pakistan and several comparative countries. The analysis is divided into four notebooks, each covering a different aspect of the study.
+This repository contains a comprehensive analysis of the data job market, focusing on Pakistan. The analysis is divided into four notebooks, each covering a different aspect of the study.
 
 ## 2. Analysis
 ### 2.1. Exploratory Data Analysis (EDA)
@@ -48,7 +49,7 @@ In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/notebook
 
 #### 1. Approach
 
-In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/notebooks/3_detailed_analysis_pak.ipynb), I conducted an in-depth analysis of Pakistan's data job market using the `df_pak.csv` dataset. The focus was on understanding the distribution of job postings across various cities, the types of roles available, and the companies posting these jobs.
+In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/notebooks/3_detailed_analysis_pak.ipynb), weconducted an in-depth analysis of Pakistan's data job market using the `df_pak.csv` dataset. The focus was on understanding the distribution of job postings across various cities, the types of roles available, and the companies posting these jobs.
 
 #### 2. Insights
 
@@ -77,7 +78,7 @@ In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/notebook
 
   ![blob chart](/insights_graphs/top_skills_distribution_blob.png)
 
-- **Required Skills by Job Posting**: The radar chart illustrates the specific skill requirements as mentioned in job postings, reinforcing the prominence of Python, SQL, AWS, and Tableau.
+- **Required Skills by Job Posting**: The radar chart illustrates the specific skill requirements as mentioned in job postings, reinforcing the prominence of Python, SQL, AWS, and Tableau. Data engineer postings were most demanding in terms of technical skills, while less than 50 percent of postings for data analysts, had any technical skills mentioned.
 
   ![required skills](/insights_graphs/job_requirement_radar.png)
 
@@ -87,7 +88,23 @@ In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/notebook
 
 
 ## 3. Conclusions
-The analysis provides insights into the emerging data job market in Pakistan and offers a comparative perspective with other countries of similar GDP. The findings highlight the growing demand for technical skills and the role of foreign companies in shaping the job landscape.
+
+This project provides a detailed examination of the data job market in Pakistan, with a brief comparative analysis against Egypt, Nigeria, Turkey, and Bangladesh. The primary focus is on Pakistan, offering insights into job postings, skill demands, and geographic distribution.
+
+1. **Pakistan's Data Job Market**:
+   - **Role Distribution**: The analysis reveals a strong demand for technical roles such as Data Engineers and Data Scientists in Pakistan, surpassing business-focused roles. This indicates an emerging emphasis on technical expertise within the country’s data sector.
+   - **Skill Demand**: Key skills in demand include Python, SQL, AWS, and Tableau. These skills are consistently required across various job titles, highlighting their significance in Pakistan's data job market.
+   - **Geographic Distribution**: Major cities like Lahore, Karachi, and Islamabad are prominent centers for data job postings. This concentration suggests these urban areas are crucial hubs for data-related opportunities in Pakistan.
+   - **Company Distribution**: Many job postings are from foreign companies or contractors, emphasizing the impact of international businesses on Pakistan's data job market.
+
+2. **Comparative Analysis**:
+   - **Scope**: The comparative analysis, which constitutes less than 10% of the overall analysis, provides a brief overview of job markets in Egypt, Nigeria, Turkey, and Bangladesh. While insightful, this comparison is secondary to the primary focus on Pakistan.
+
+3. **Data Limitations**:
+   - **Dataset Size**: The analysis is based on 1,370 job postings for the year 2023. This limited dataset may not fully capture the entire job market and could affect the generalizability of the findings.
+   - **Dataset Accuracy**: The accuracy of the insights is dependent on the dataset obtained from the mentioned source. Individual postings have not been verified firsthand, which may impact the reliability of specific data points.
+
+In summary, this project underscores the growing significance of technical roles and core skills in Pakistan's data job market, with a clear focus on major urban centers. The limited comparative analysis provides additional context but does not overshadow the primary insights related to Pakistan's job market. Future research could enhance understanding by incorporating a larger and more verified dataset.
 
 ## 4. Recreate This Project
 
