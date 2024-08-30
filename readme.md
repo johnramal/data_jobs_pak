@@ -3,18 +3,15 @@
 This project analyzes the data job market in Pakistan and compares it with other countries of similar GDP levels, including Egypt, Nigeria, Turkey, and Bangladesh. The analysis includes exploratory data analysis (EDA), a comparative study, a detailed focus on Pakistan's job market, and an in-depth skills trend analysis.
 
 ## Table of Contents
-1. [Introduction](#1.introduction)
-2. [Exploratory Data Analysis (EDA)](#2.1.exploratory-data-analysis-eda)
-3. [Comparative Analysis](#2.2.comparative-analysis)
-4. [Detailed Analysis of Pakistan's Data Job Market](#2.3.detailed-analysis-of-pakistans-data-job-market)
-5. [Skills Trend Analysis in Pakistan](#2.4.skills-trend-analysis-in-pakistan)
-6. [Conclusions](#3.conclusions)
-7. [Data Source](#4.data-source)
-8. [Setup and Installation](#5.setup-and-installation)
-9. [Running the Project](#6.running-the-project)
-10. [Prerequisites](#7.prerequisites)
-11. [Acknowledgements](#acknowledgements)
-12. [License](#license)
+1. [Introduction](#1-introduction)
+2. [Exploratory Data Analysis (EDA)](#21-exploratory-data-analysis-eda)
+3. [Comparative Analysis](#22-comparative-analysis)
+4. [Detailed Analysis of Pakistan's Data Job Market](#23-detailed-analysis-of-pakistans-data-job-market)
+5. [Skills Trend Analysis in Pakistan](#24-skills-trend-analysis-in-pakistan)
+6. [Conclusions](#3-conclusions)
+7. [Recreate this project](#4-recreate-this-project)
+8. [Acknowledgements](#acknowledgements)
+9. [License](#license)
 
 ## 1. Introduction
 This repository contains a comprehensive analysis of the data job market, focusing on Pakistan and several comparative countries. The analysis is divided into four notebooks, each covering a different aspect of the study.
@@ -84,20 +81,24 @@ In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/8_skills
 ## 3. Conclusions
 The analysis provides insights into the emerging data job market in Pakistan and offers a comparative perspective with other countries of similar GDP. The findings highlight the growing demand for technical skills and the role of foreign companies in shaping the job landscape.
 
-## 4. Data Source and Prerequisites
+## 4. Recreate This Project
+
+If you wish to recreate this project, follow the steps below to set up the environment, install necessary dependencies, and run the notebooks.
+
+### Data Source and Prerequisites
 
 The dataset used in this project is sourced from [Luke Barousse's Hugging Face repository](https://huggingface.co/datasets/lukebarousse/data_jobs). The data includes job postings from various countries and was instrumental in performing the analyses presented in this project.
 
-### Prerequisites
+#### Prerequisites
 - Python 3.x
 - Jupyter Notebook
 - Required Python libraries (listed in `requirements.txt`)
 
-## 5. Setup, Installation, and Running the Project
+### Setup, Installation, and Running the Project
 
 This project uses a Conda environment. You can set it up using either the `environment.yml` file or the `requirements.txt` file.
 
-### Option 1: Using `environment.yml` (recommended for Conda users)
+#### Option 1: Using `environment.yml` (recommended for Conda users)
 1. Clone the repository:
     ```bash
     git clone https://github.com/johnramal/data_jobs_pak.git
@@ -110,7 +111,7 @@ This project uses a Conda environment. You can set it up using either the `envir
     conda activate data_jobs_pk
     ```
 
-### Option 2: Using `requirements.txt`
+#### Option 2: Using `requirements.txt`
 1. Clone the repository:
     ```bash
     git clone https://github.com/johnramal/data_jobs_pak.git
