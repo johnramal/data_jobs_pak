@@ -10,14 +10,20 @@ This project analyzes the data job market in Pakistan and compares it with other
 5. [Skills Trend Analysis in Pakistan](#24-skills-trend-analysis-in-pakistan)
 6. [Conclusions](#3-conclusions)
 7. [Recreate this project](#4-recreate-this-project)
-8. [Acknowledgements](#acknowledgements)
-9. [License](#license)
+8. [Acknowledgements](#5-acknowledgements)
+9. [License](#6-license)
 
 ## 1. Introduction
 This repository contains a comprehensive analysis of the data job market, focusing on Pakistan and several comparative countries. The analysis is divided into four notebooks, each covering a different aspect of the study.
 
-### 2.1. Exploratory Data Analysis (EDA) 
-In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/5_eda.ipynb), we import the dataset from Luke Barousse's Hugging Face repository and filter for data-related jobs. The filtered datasets are saved as `df_pak.csv` and `df_comparison_countries.csv`. Unfortunately, due to a lack of salary information in most postings, we were unable to perform a statistically significant numerical analysis on salary data.
+## 2. Analysis
+### 2.1. Exploratory Data Analysis (EDA)
+
+In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/5_eda.ipynb), the dataset from Luke Barousse's Hugging Face repository was processed to focus on data-related jobs.
+
+The analysis involved cleaning the data by removing duplicate job postings and correcting data types. The `job_skills` column was converted from a string to a list for a more detailed skill analysis. Two filtered datasets were created: `df_pak.csv` for Pakistan and `df_comparison_countries.csv` for Egypt, Nigeria, Turkey, and Bangladesh.
+
+It's important to note that salary information was largely missing from the job postings, making a statistically significant salary analysis impossible.
 
 ### 2.2. Comparative Analysis
 
@@ -141,10 +147,10 @@ After setting up the environment using either method:
 
 **Note:** If you encounter any issues with package versions, please refer to the `environment.yml` file for the specific versions used in this project.
 
-## 6. Acknowledgements
+## 5. Acknowledgements
 Special thanks to [Luke Barousse](https://www.youtube.com/@LukeBarousse) for providing the dataset on Hugging Face, which served as the foundation for this analysis.
 
-## 7. License
+## 6. License
 
 MIT License
 
