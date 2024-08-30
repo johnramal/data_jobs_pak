@@ -3,26 +3,26 @@
 This project analyzes the data job market in Pakistan and compares it with other countries of similar GDP levels, including Egypt, Nigeria, Turkey, and Bangladesh. The analysis includes exploratory data analysis (EDA), a comparative study, a detailed focus on Pakistan's job market, and an in-depth skills trend analysis.
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-3. [Comparative Analysis](#comparative-analysis)
-4. [Detailed Analysis of Pakistan's Data Job Market](#detailed-analysis-of-pakistans-data-job-market)
-5. [Skills Trend Analysis in Pakistan](#skills-trend-analysis-in-pakistan)
-6. [Conclusions](#conclusions)
-7. [Data Source](#data-source)
-8. [Setup and Installation](#setup-and-installation)
-9. [Running the Project](#running-the-project)
-10. [Prerequisites](#prerequisites)
+1. [Introduction](#1.introduction)
+2. [Exploratory Data Analysis (EDA)](#2.1.exploratory-data-analysis-eda)
+3. [Comparative Analysis](#2.2.comparative-analysis)
+4. [Detailed Analysis of Pakistan's Data Job Market](#2.3.detailed-analysis-of-pakistans-data-job-market)
+5. [Skills Trend Analysis in Pakistan](#2.4.skills-trend-analysis-in-pakistan)
+6. [Conclusions](#3.conclusions)
+7. [Data Source](#4.data-source)
+8. [Setup and Installation](#5.setup-and-installation)
+9. [Running the Project](#6.running-the-project)
+10. [Prerequisites](#7.prerequisites)
 11. [Acknowledgements](#acknowledgements)
 12. [License](#license)
 
 ## 1. Introduction
 This repository contains a comprehensive analysis of the data job market, focusing on Pakistan and several comparative countries. The analysis is divided into four notebooks, each covering a different aspect of the study.
 
-### 2.1 Exploratory Data Analysis (EDA) 
+### 2.1. Exploratory Data Analysis (EDA) 
 In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/5_eda.ipynb), we import the dataset from Luke Barousse's Hugging Face repository and filter for data-related jobs. The filtered datasets are saved as `df_pak.csv` and `df_comparison_countries.csv`. Unfortunately, due to a lack of salary information in most postings, we were unable to perform a statistically significant numerical analysis on salary data.
 
-### 2.2 Comparative Analysis
+### 2.2. Comparative Analysis
 
 #### 1. Approach
 
@@ -39,7 +39,7 @@ In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/6_comapr
   ![benefit analysis](/insights_graphs/benefit_analysis.png)
 
 
-### 2.3 Detailed Analysis of Pakistan's Data Job Market
+### 2.3. Detailed Analysis of Pakistan's Data Job Market
 
 #### 1. Approach
 
@@ -60,18 +60,40 @@ In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/7_detail
   ![jobs per city](/insights_graphs/job_count_by_city_and_title_pak.png)
 
 
-### 2.4 Skills Trend Analysis in Pakistan
-In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/8_skills_trends_pak.ipynb), we focus on the skill requirements for data jobs in Pakistan, analyzing the distribution of the top 10 skills across various job titles. The analysis includes a blob chart for skill distribution and a radar chart for visualization. Python, SQL, AWS, and Tableau emerge as the top skills. We also perform a time analysis from January to December, finding no significant fluctuations in skill requirements.
+### 2.4. Skills Trend Analysis in Pakistan
 
- ![](path_to_your_image)
+#### 1. Approach
 
-### 3 Conclusions
+In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/8_skills_trends_pak.ipynb), we analyze the skill requirements for data jobs in Pakistan. The analysis explores the distribution of the top 10 skills across various job titles using a blob chart and examines skill requirements through a radar chart. Additionally, a time-based analysis from January to December was conducted to observe any trends or fluctuations in skill demand.
+
+#### 2. Insights
+
+- **Top Skills**: Python, SQL, AWS, and Tableau are identified as the most sought-after skills in Pakistan's data job market. These skills are consistently required across various job titles, indicating their importance for data professionals in the country.
+
+  ![blob chart](/insights_graphs/top_skills_distribution_blob.png)
+
+- **Required Skills by Job Posting**: The radar chart illustrates the specific skill requirements as mentioned in job postings, reinforcing the prominence of Python, SQL, AWS, and Tableau.
+
+  ![required skills](/insights_graphs/job_requirement_radar.png)
+
+- **Monthly Skill Trend**: A time-based analysis from January to December shows that there are no significant fluctuations in skill requirements throughout the year, indicating a stable demand for these core skills.
+
+  ![radar chart for skill trend](/insights_graphs/skill_liklyhood_monthly_trend.png)
+
+
+## 3. Conclusions
 The analysis provides insights into the emerging data job market in Pakistan and offers a comparative perspective with other countries of similar GDP. The findings highlight the growing demand for technical skills and the role of foreign companies in shaping the job landscape.
 
-## 4 Data Source
+## 4. Data Source and Prerequisites
+
 The dataset used in this project is sourced from [Luke Barousse's Hugging Face repository](https://huggingface.co/datasets/lukebarousse/data_jobs). The data includes job postings from various countries and was instrumental in performing the analyses presented in this project.
 
-## 5 Setup and Installation
+### Prerequisites
+- Python 3.x
+- Jupyter Notebook
+- Required Python libraries (listed in `requirements.txt`)
+
+## 5. Setup, Installation, and Running the Project
 
 This project uses a Conda environment. You can set it up using either the `environment.yml` file or the `requirements.txt` file.
 
@@ -106,7 +128,7 @@ This project uses a Conda environment. You can set it up using either the `envir
     pip install -r requirements.txt
     ```
 
-## Running the Project
+### Running the Project
 After setting up the environment using either method:
 
 1. Launch Jupyter Notebook:
@@ -118,15 +140,10 @@ After setting up the environment using either method:
 
 **Note:** If you encounter any issues with package versions, please refer to the `environment.yml` file for the specific versions used in this project.
 
-## 6 Prerequisites
-- Python 3.x
-- Jupyter Notebook
-- Required Python libraries are listed in `requirements.txt`.
-
-## 7 Acknowledgements
+## 6. Acknowledgements
 Special thanks to [Luke Barousse](https://www.youtube.com/@LukeBarousse) for providing the dataset on Hugging Face, which served as the foundation for this analysis.
 
-## 8  License
+## 7. License
 
 MIT License
 
