@@ -4,14 +4,16 @@ This project analyzes the data job market in Pakistan and compares it with other
 
 ## Table of Contents
 1. [Introduction](#1-introduction)
-2. [Exploratory Data Analysis (EDA)](#21-exploratory-data-analysis-eda)
-3. [Comparative Analysis](#22-comparative-analysis)
-4. [Detailed Analysis of Pakistan's Data Job Market](#23-detailed-analysis-of-pakistans-data-job-market)
-5. [Skills Trend Analysis in Pakistan](#24-skills-trend-analysis-in-pakistan)
-6. [Conclusions](#3-conclusions)
-7. [Recreate this project](#4-recreate-this-project)
-8. [Acknowledgements](#5-acknowledgements)
-9. [License](#6-license)
+2. [Analysis](#2-analysis)
+   1. [Exploratory Data Analysis (EDA)](#21-exploratory-data-analysis-eda)
+   2. [Comparative Analysis](#22-comparative-analysis)
+   3. [Detailed Analysis of Pakistan's Data Job Market](#23-detailed-analysis-of-pakistans-data-job-market)
+   4. [Skills Trend Analysis in Pakistan](#24-skills-trend-analysis-in-pakistan)
+3. [Conclusions](#3-conclusions)
+4. [Recreate this project](#4-recreate-this-project)
+5. [Acknowledgements](#5-acknowledgements)
+6. [License](#6-license)
+
 
 ## 1. Introduction
 This repository contains a comprehensive analysis of the data job market, focusing on Pakistan and several comparative countries. The analysis is divided into four notebooks, each covering a different aspect of the study.
@@ -21,7 +23,7 @@ This repository contains a comprehensive analysis of the data job market, focusi
 
 In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/5_eda.ipynb), the dataset from Luke Barousse's Hugging Face repository was processed to focus on data-related jobs.
 
-The analysis involved cleaning the data by removing duplicate job postings and correcting data types. The `job_skills` column was converted from a string to a list for a more detailed skill analysis. Two filtered datasets were created: `df_pak.csv` for Pakistan and `df_comparison_countries.csv` for Egypt, Nigeria, Turkey, and Bangladesh.
+The analysis involved cleaning the data by removing duplicate job postings and correcting data types. The `job_skills` column was converted from a string to a list for a more detailed skill analysis. Two filtered datasets were created: `df_pak.csv` for Pakistan only and `df_comparison_countries.csv` for Egypt, Nigeria, Turkey, Bangladesh, and Pakistan.
 
 It's important to note that salary information was largely missing from the job postings, making a statistically significant salary analysis impossible.
 
