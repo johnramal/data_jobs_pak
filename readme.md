@@ -21,7 +21,7 @@ This repository contains a comprehensive analysis of the data job market, focusi
 ## 2. Analysis
 ### 2.1. Exploratory Data Analysis (EDA)
 
-In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/5_eda.ipynb), the dataset from Luke Barousse's Hugging Face repository was processed to focus on data-related jobs.
+In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/notebooks/1_eda.ipynb), the dataset from Luke Barousse's Hugging Face repository was processed to focus on data-related jobs.
 
 The analysis involved cleaning the data by removing duplicate job postings and correcting data types. The `job_skills` column was converted from a string to a list for a more detailed skill analysis. Two filtered datasets were created: `df_pak.csv` for Pakistan only and `df_comparison_countries.csv` for Egypt, Nigeria, Turkey, Bangladesh, and Pakistan.
 
@@ -31,7 +31,7 @@ It's important to note that salary information was largely missing from the job 
 
 #### 1. Approach
 
-In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/6_comaprative_analysis.ipynb), we compare job postings in Pakistan with those in Egypt, Nigeria, Turkey, and Bangladesh. The analysis focuses on identifying patterns in job postings across these countries, with particular attention to the companies offering these jobs, degree requirements, and available benefits such as health insurance and work-from-home options.
+In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/notebooks/2_comaprative_analysis.ipynb), we compare job postings in Pakistan with those in Egypt, Nigeria, Turkey, and Bangladesh. The analysis focuses on identifying patterns in job postings across these countries, with particular attention to the companies offering these jobs, degree requirements, and available benefits such as health insurance and work-from-home options.
 
 #### 2. Insights
 
@@ -48,7 +48,7 @@ In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/6_comapr
 
 #### 1. Approach
 
-In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/7_detailed_analysis_pak.ipynb), I conducted an in-depth analysis of Pakistan's data job market using the `df_pak.csv` dataset. The focus was on understanding the distribution of job postings across various cities, the types of roles available, and the companies posting these jobs.
+In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/notebooks/3_detailed_analysis_pak.ipynb), I conducted an in-depth analysis of Pakistan's data job market using the `df_pak.csv` dataset. The focus was on understanding the distribution of job postings across various cities, the types of roles available, and the companies posting these jobs.
 
 #### 2. Insights
 
@@ -69,7 +69,7 @@ In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/7_detail
 
 #### 1. Approach
 
-In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/8_skills_trends_pak.ipynb), we analyze the skill requirements for data jobs in Pakistan. The analysis explores the distribution of the top 10 skills across various job titles using a blob chart and examines skill requirements through a radar chart. Additionally, a time-based analysis from January to December was conducted to observe any trends or fluctuations in skill demand.
+In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/notebooks/4_skills_trends_pak.ipynb), we analyze the skill requirements for data jobs in Pakistan. The analysis explores the distribution of the top 10 skills across various job titles using a blob chart and examines skill requirements through a radar chart. Additionally, a time-based analysis from January to December was conducted to observe any trends or fluctuations in skill demand.
 
 #### 2. Insights
 
