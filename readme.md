@@ -1,6 +1,6 @@
-# Data Job Market Analysis: Pakistan
+# Data Job Market Analysis: Pakistan(2023)
 
-This project provides an in-depth analysis of the data job market in Pakistan for the year 2023, with a comparative overview of similar GDP-level countries: Egypt, Nigeria, Turkey, and Bangladesh. The study includes exploratory data analysis (EDA), a brief comparative analysis, a detailed examination of Pakistan’s job market, and a comprehensive skills trend analysis.
+This pioneering project provides the first comprehensive insights into Pakistan's data job market in 2023, serving as a valuable starting point for understanding the landscape of data-related careers in the country. By offering a multifaceted analysis that touches on various aspects of the market, including a brief comparison with similar GDP-level countries, this study not only illuminates current trends but also aims to motivate and guide future researchers in conducting deeper, more specialized analyses of Pakistan's evolving data job ecosystem.
  
 
 ## Table of Contents
