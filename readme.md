@@ -36,9 +36,9 @@ In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/notebook
 
 #### 2. Insights
 
-- **Jobs Per Company**: The majority of data-related job postings are from non-local companies, including Vodafone, Data2Bots, and JP Morgan Chase, indicating a strong presence of international firms in the job markets of these countries.
+- **Jobs Per Country**: Egypt leads the postings with Pakistan having impressive numbers in relation to other similar countries, showing strong inclination to data sciences.
 
-  ![jobs per company](/insights_graphs/jobs_per_company.png)
+  ![jobs by country](insights_graphs/job_postings_by_country.png)
 
 - **Benefit Analysis**: A significant number of job postings do not explicitly mention degree requirements. Additionally, there is a noticeable lack of health insurance benefits across all countries, with Egypt offering the fewest work-from-home opportunities.
 
