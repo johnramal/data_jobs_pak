@@ -80,7 +80,9 @@ In this [notebook](https://github.com/johnramal/data_jobs_pak/blob/main/notebook
 
 - **Required Skills by Job Posting**: The radar chart illustrates the specific skill requirements as mentioned in job postings, reinforcing the prominence of Python, SQL, AWS, and Tableau. Data engineer postings were most demanding in terms of technical skills, while less than 50 percent of postings for data analysts, had any technical skills mentioned.
 
-  ![required skills](/insights_graphs/job_requirement_radar.png)
+  ![required skills](/insights_graphs/job_requirement_radar_set1.png)
+  ![required skills](/insights_graphs/job_requirement_radar_set2.png)
+
 
 - **Monthly Skill Trend**: A time-based analysis from January to December shows that there are no significant fluctuations in skill requirements throughout the year, indicating a stable demand for these core skills.
 
