@@ -99,10 +99,7 @@ This project provides a detailed examination of the data job market in Pakistan,
    - **Geographic Distribution**: Major cities like Lahore, Karachi, and Islamabad are prominent centers for data job postings. This concentration suggests these urban areas are crucial hubs for data-related opportunities in Pakistan.
    - **Company Distribution**: Many job postings are from foreign companies or contractors, emphasizing the impact of international businesses on Pakistan's data job market.
 
-2. **Comparative Analysis**:
-   - **Scope**: The comparative analysis, which constitutes less than 10% of the overall analysis, provides a brief overview of job markets in Egypt, Nigeria, Turkey, and Bangladesh. While insightful, this comparison is secondary to the primary focus on Pakistan.
-
-3. **Data Limitations**:
+2. **Data Limitations**:
    - **Dataset Size**: The analysis is based on 1,370 job postings for the year 2023. This limited dataset may not fully capture the entire job market and could affect the generalizability of the findings.
    - **Dataset Accuracy**: The accuracy of the insights is dependent on the dataset obtained from the mentioned source. Individual postings have not been verified firsthand, which may impact the reliability of specific data points.
 
